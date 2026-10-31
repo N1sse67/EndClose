@@ -1,0 +1,18 @@
+closed: false
+kick-players-out: true
+broadcast: true
+message-cooldown-seconds: 3
+
+messages:
+  prefix: "&8[&5Энд&8] &r"
+  closed-broadcast: "&cЭнд закрыт. Войти в него сейчас нельзя."
+  opened-broadcast: "&aЭнд открыт! Можно заходить."
+  denied: "&cЭнд сейчас закрыт."
+  kicked: "&cЭнд был закрыт, вы перемещены на спавн."
+  already-closed: "&eЭнд уже закрыт."
+  already-open: "&eЭнд уже открыт."
+  status-closed: "&7Статус Энда: &cзакрыт"
+  status-open: "&7Статус Энда: &aоткрыт"
+  reloaded: "&aНастройки перезагружены."
+  usage: "&7Использование: &f/end <close|open|status|reload>"
+  no-permission: "&cУ вас нет прав на это."
