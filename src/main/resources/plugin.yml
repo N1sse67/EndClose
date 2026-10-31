@@ -1,0 +1,21 @@
+name: EndClose
+version: 1.0.0
+main: me.endclose.EndClosePlugin
+api-version: '26.3'
+authors: [ you ]
+description: Закрывает и открывает измерение Энд командой.
+
+commands:
+  end:
+    description: Управление доступом в Энд
+    usage: /<command> <close|open|status|reload>
+    aliases: [endclose]
+    permission: endclose.use
+
+permissions:
+  endclose.use:
+    description: Использовать команду /end
+    default: op
+  endclose.bypass:
+    description: Заходить в Энд, даже когда он закрыт
+    default: op
